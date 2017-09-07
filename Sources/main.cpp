@@ -11,5 +11,9 @@ int main( )
 
    auto res = LA::ForwardElimination( mat, vec );
    res = res;
+
+   auto sol = LA::GaussianElimination( mat, vec );
+   sol = sol;
+
    return 0;
 }
