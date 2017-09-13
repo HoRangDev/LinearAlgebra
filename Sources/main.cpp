@@ -1,4 +1,4 @@
-#include "GaussianElimination.h"
+#include "Elimination.h"
 
 int main( )
 {
@@ -9,10 +9,13 @@ int main( )
 
    LA::Vector<3> vec{ 3,6,9 };
 
-   auto res = LA::ForwardElimination( mat, vec );
-   res = res;
+   //auto res = LA::ForwardElimination( mat, vec );
+   //res = res;
 
-   auto sol = LA::GaussianElimination( mat, vec );
+   //auto sol = LA::GaussianElimination( mat, vec );
+   //sol = sol;
+
+   auto sol = LA::GaussJordanElimination( mat, vec );
    sol = sol;
 
    return 0;
