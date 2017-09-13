@@ -22,7 +22,7 @@
     <ClInclude Include="Sources\Common.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sources\GaussianElimination.h" />
+    <ClCompile Include="Sources\Elimination.h" />
     <ClCompile Include="Sources\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

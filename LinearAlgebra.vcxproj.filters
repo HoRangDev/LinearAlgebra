@@ -11,10 +11,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sources\GaussianElimination.h">
+    <ClCompile Include="Sources\main.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\main.cpp">
+    <ClCompile Include="Sources\Elimination.h">
       <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>
